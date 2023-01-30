@@ -22,6 +22,7 @@ def lock
             end
         end
     end
+    puts "combination not found"
 end
 
 lock
