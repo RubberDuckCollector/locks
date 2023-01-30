@@ -21,6 +21,7 @@ function lock() {
             }
         }
     }
+    console.log("combination not found");
 }
 
 lock();
