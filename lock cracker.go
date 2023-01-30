@@ -21,12 +21,13 @@ func lock() {
                 fmt.Println(output)
 
                 if output == lock {
-                    fmt.Println("lock combination lock found: ", output)
+                    fmt.Println("lock combination lock found:", output)
                     return
                 }
             }
         }
     }
+    fmt.Println("combination not found")
 }
 
 
