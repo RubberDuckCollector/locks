@@ -18,6 +18,8 @@ def lock():
                     print(f"lock combination found: {output}")
                     return
 
+    print("combination not found")
+
 def main():
     lock()
 
