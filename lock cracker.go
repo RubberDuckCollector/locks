@@ -21,7 +21,7 @@ func lock() {
                 fmt.Println(output)
 
                 if output == lock {
-                    fmt.Println("combination lock found: ", output)
+                    fmt.Println("lock combination lock found: ", output)
                     return
                 }
             }
